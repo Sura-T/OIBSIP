@@ -1,0 +1,34 @@
+/* CSS styles omitted for brevity */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+}
+.container {
+    text-align: center;
+    margin-top: 10rem;
+    
+}
+
+#login-username, #login-password, #login-btn {
+    display: flex;
+    text-align: center;
+    
+    font-size: 1.4rem;
+    
+    margin: 1.4rem auto;
+}
+
+#login-container {
+    text-align: center;
+    
+}
+
+
+
+.link:hover {
+    cursor: pointer;
+}

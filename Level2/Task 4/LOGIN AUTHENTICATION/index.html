@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Authentication System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login Authentication System</h1>
+        <div id="login-container">
+            <input type="text" id="login-username" placeholder="Username">
+            <input type="password" id="login-password" placeholder="Password">
+            <button id="login-btn">Login</button>
+            <p id="login-error" class="error-message" style="display: none;">Invalid username or password</p>
+            <p class="link" id="forgot-password-link">Forgot Password?</p>
+            <p class="link" id="register-link">Register</p>
+        </div>
+        <div id="forgot-password-container">
+            <input type="text" id="forgot-password-username" placeholder="Username">
+            <button id="forgot-password-btn">Reset Password</button>
+            <p id="forgot-password-message" class="error-message" style="display: none;">Username not found</p>
+            <p class="link" id="back-to-login-link">Back to Login</p>
+        </div>
+        <div id="register-container">
+            <input type="text" id="register-username" placeholder="Username">
+            <input type="password" id="register-password" placeholder="Password">
+            <button id="register-btn">Register</button>
+            <p id="register-success-message" style="display: none;">Registration successful! Please login.</p>
+            <p class="link" id="back-to-login-link-2">Back to Login</p>
+        </div>
+        <div id="secured-content">
+            <h2>Secured Page</h2>
+            <p>Welcome! You have successfully logged in.</p>
+            <button id="logout-btn">Logout</button>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
